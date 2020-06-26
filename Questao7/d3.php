@@ -101,7 +101,7 @@
         }
 
         public function calcularPoderMedio(){
-            return ($this->energia * $this->forca)/2;
+            return ($this->energia + $this->forca)/2;
         }
        
     }
