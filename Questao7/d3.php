@@ -110,7 +110,7 @@
 
     $heroi1 = new SuperHeroi("1","Goku","Super sayajin", 100, 1000, "Japão");
     $heroi2 = new SuperHeroi("2", "Harry Potter", "MAgia", 60, 10, "Inglaterra");
-    $heroi3 = new SuperHeroi("3","Homem Aranha", "Lançar teia",500, "EUA" );
+    $heroi3 = new SuperHeroi("3","Homem Aranha", "Lançar teia",500, 800, "EUA" );
     $heroi4 = new SuperHeroi("4", "Super Homem", "Todos", 1000, 10000, " Krypton");
 
     echo $heroi1->aumentarEnergia();
